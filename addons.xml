@@ -41,7 +41,7 @@
   </extension>
 </addon>
 <addon id="plugin.video.PastebinPlay"   
-name="PlayItAll"   
+name="Ours"   
    version="1.9.7"  
    provider-name="Babylon5">
 	
