@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.PastebinPlay"                                                                                                                                    
-	   name="Ours"                      
+	   name="PastebinPlay"                      
 	   version="1.9.7"                                                                                                                                        
 	   provider-name="Babylon5">
 	   <requires>
