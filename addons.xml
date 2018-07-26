@@ -372,4 +372,17 @@ name="Ours"
   </extension>
 </addon>
 
+<addon id="repository.Ours" name="Ours-Repo" version="1.0.0" provider-name="Ramim">
+<extension point="xbmc.addon.repository" name=" Ours-Repo">
+       <info compressed="false">https://raw.githubusercontent.com/ramim10/Ours-Repo/master/addons.xml</info>
+<checksum>https://raw.githubusercontent.com/ramim10/Ours-Repo/master/addons.xml.md5</checksum>
+<datadir zip="true">https://github.com/ramim10/Ours-Repo/raw/master/zips</datadir>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary> Ours-Repo </summary>
+<description> Ours-Repository </description>
+<platform>all</platform>
+</extension>
+</addon>
+
 </addons> 
