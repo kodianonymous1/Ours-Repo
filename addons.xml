@@ -130,4 +130,28 @@ name="PastebinPlay"
      <platform>all</platform>
   </extension>
 </addon>
+	<addon id="plugin.video.ForOurFamily"                                                                                                                                    
+	   name="בשביל הללושים  "                      
+	   version="1.0.0"                                                                                                                                        
+	   provider-name="אני">
+	   <requires>
+    <import addon="script.module.resolveurl" version="5.0.00"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests"/>
+	<import addon="script.module.nanscrapers"/>
+
+	
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">סרטים וסדרות</summary>
+    <description lang="en">סרטים וסדרות כבקשתך</description>
+    <platform>all</platform>
+
+  </extension>
+</addon>
 </addons> 
