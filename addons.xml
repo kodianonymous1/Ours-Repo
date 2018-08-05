@@ -23,7 +23,7 @@
 </addon>
 <addon id="plugin.video.ember"                                                                                                                                    
 	   name="Ember"                                                 
-	   version="1.2.2"                                                                                                                                        
+	   version="1.2.4"                                                                                                                                        
 	   provider-name="EXDX">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
