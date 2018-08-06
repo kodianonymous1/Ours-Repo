@@ -452,4 +452,21 @@ name="PastebinPlay"
 		<platform>all</platform>
 	</extension>
 </addon>
+<addon id="plugin.video.anonymous.wall" name="Anonymous Wall" version="2.9" provider-name="Anonymous">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+	<extension point="xbmc.service" library="service.py" start="[login|startup]"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Anonymous Wall Movies and TV Show</summary>
+        <summary lang="he">סרטים וסדרות Anonymous Wall</summary>
+        <description lang="en"></description>
+        <description lang="he">קיר סרטים</description>
+        <disclaimer></disclaimer>
+    </extension>
+ </addon>
 </addons> 
